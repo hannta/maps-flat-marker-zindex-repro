@@ -48,7 +48,7 @@ RED on top of BLUE in all four rows.
 So when flat and billboard markers overlap, the billboard marker is always drawn on top
 regardless of zIndex. Row D is correct only because the billboard marker also has the higher zIndex.
 
-![Play services 26.45.31: row A has BLUE on top](screenshots/gms-26.45.31.png)
+![Android 17, Play services 26.46.32: row A has BLUE on top](screenshots/gms-26.46.32-android17.png)
 
 ## Environment
 
@@ -56,7 +56,7 @@ regardless of zIndex. Row D is correct only because the billboard marker also ha
 |---|---|
 | `play-services-maps` | 20.1.0 |
 | Renderer | LATEST |
-| Google Play services | 26.45.31 |
+| Verified on | Android 17, Play services 26.46.32; Android 12, Play services 26.45.31 |
 | Maps core module | `264320701` |
 
 The maps core module version shows in logcat stack frames as
